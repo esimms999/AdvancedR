@@ -94,3 +94,7 @@ d3[1, ] <- d3[1, ] * 3
 lobstr::ref(d1)
 lobstr::ref(d2)
 lobstr::ref(d3)
+
+# ---- 2.3.5 ----
+x <- c("a", "a", "abc", "d")
+lobstr::ref(x, character = TRUE)
